@@ -1,0 +1,114 @@
+body {
+    position: fixed;
+    margin: 0;
+    padding: 0
+}
+
+.canvas-app-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden
+}
+
+.canvas-app-container:-webkit-full-screen {
+    width: auto;
+    height: auto
+}
+
+#canvas {
+    outline: none;
+    border: 0;
+    width: 100%;
+    vertical-align: bottom
+}
+
+#canvas-container {
+    position: relative
+}
+
+canvas:focus, canvas:active {
+    outline: none;
+    border: 0;
+    -moz-outline-style: none
+}
+
+div {
+    -webkit-tap-highlight-color: #fff0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.banner-styleBottom {
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.banner-styleTop {
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.canvas-app-progress {
+    position: absolute;
+    background-color: #0A8A40;
+    height: 30px;
+    margin-top: -30px;
+    width: 100%
+}
+
+.canvas-app-progress-bar {
+    font-size: 12px;
+    height: 30px;
+    color: #fff;
+    background-color: #FFE333;
+    text-align: center;
+    line-height: 20px
+}
+
+.link, .button {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0;
+    padding-top: 12px
+}
+
+.buttons-background {
+    background-color: #fff;
+    width: 100%;
+    height: 42px
+}
+
+body {
+    background-color: #fff
+}
+
+.canvas-app-container {
+    background: #00BB61
+}
+
+.canvas-app-canvas {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: cover;
+    background-image: url(bg_loading.png)
+}
